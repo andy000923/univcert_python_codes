@@ -4,7 +4,6 @@ def convert_to_code(name, domain, previous_acronyms):
     # 만약 name이 "대학"으로 끝난다면 "대학교"로 변경
     if name.endswith("대학"):
         name += "교"
-
     # 이전 약어와 동일한 약어가 있는지 확인하고, 있다면 새로운 번호를 붙여줌
     count = 1
     new_acronym = acronym
